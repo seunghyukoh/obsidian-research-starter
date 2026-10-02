@@ -1,0 +1,83 @@
+{
+  "addToCommand": true,
+  "addToContextMenu": true,
+  "focusOnNewInstance": true,
+  "newInstanceBehavior": "newHorizontalSplit",
+  "interceptKeysWhenFocused": true,
+  "defaultProfile": null,
+  "profiles": {
+    "darwinIntegratedDefault": {
+      "name": "macOS - zsh (login)",
+      "type": "integrated",
+      "platforms": {
+        "darwin": true
+      },
+      "executable": "/bin/zsh",
+      "args": [
+        "--login"
+      ],
+      "environment": [],
+      "pythonExecutable": "python3",
+      "restoreHistory": false,
+      "followTheme": true,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "useWin32Conhost": true
+    },
+    "linuxIntegratedDefault": {
+      "name": "Linux - bash (login)",
+      "type": "integrated",
+      "platforms": {
+        "linux": true
+      },
+      "executable": "/bin/bash",
+      "args": [
+        "--login"
+      ],
+      "environment": [],
+      "pythonExecutable": "python3",
+      "restoreHistory": false,
+      "followTheme": true,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "useWin32Conhost": true
+    },
+    "win32IntegratedDefault": {
+      "name": "Windows - Command Prompt",
+      "type": "integrated",
+      "platforms": {
+        "win32": true
+      },
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "args": [],
+      "environment": [],
+      "pythonExecutable": "python3",
+      "restoreHistory": false,
+      "followTheme": true,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "useWin32Conhost": true
+    }
+  }
+}

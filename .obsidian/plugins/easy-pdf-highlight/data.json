@@ -1,0 +1,34 @@
+{
+  "colors": [
+    {
+      "id": "yellow",
+      "label": "핵심 주장/기여",
+      "hex": "#fffe01"
+    },
+    {
+      "id": "green",
+      "label": "방법/설정",
+      "hex": "#8affd7"
+    },
+    {
+      "id": "blue",
+      "label": "결과/근거",
+      "hex": "#ffbbab"
+    },
+    {
+      "id": "red",
+      "label": "가정/한계/의문",
+      "hex": "#d6b7fe"
+    },
+    {
+      "id": "purple",
+      "label": "내 연구와 연결",
+      "hex": "#98e6ff"
+    }
+  ],
+  "createNote": true,
+  "noteName": "{{filename}}_highlights",
+  "snapToWords": true,
+  "templatePath": "",
+  "highlights": {}
+}

@@ -1,0 +1,24 @@
+# Machine-specific Obsidian state and recovery files.
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/workspaces.json
+.obsidian/appearance.json
+.trash/
+.DS_Store
+Thumbs.db
+
+# Local agent state, credentials, and environment files.
+.codex/
+.omx/
+.env
+.env.*
+!.env.example
+*.log
+
+# Papers are added deliberately; keep the original practice document.
+*.pdf
+!papers/Highlight Playground.pdf
+
+# Install plugins locally; share their settings only.
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
